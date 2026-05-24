@@ -15,6 +15,9 @@ models:
         data_tests:
           - unique
           - not_null
+      - name: gross_amount
+        data_tests:
+          - generic_non_negative
        
       
   - name: bronze_store
