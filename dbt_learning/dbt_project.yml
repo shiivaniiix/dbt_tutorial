@@ -42,3 +42,6 @@ models:
       +materialized: table
       schema: gold
 
+seeds:
+  dbt_learning:
+    +schema: bronze 
